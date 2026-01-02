@@ -5,6 +5,9 @@ A fully client-side retirement planning application that models long-term portfo
 
 This project is designed to be **transparent, auditable, and realistic**, not a black-box calculator.
 
+
+<img width="1886" height="862" alt="Screenshot 2026-01-02 225130" src="https://github.com/user-attachments/assets/b961febb-cf54-4614-a218-751bc491466e" />
+
 ---
 
 ## Overview
@@ -52,6 +55,10 @@ It is built as a **pure frontend application** with no backend or APIs, making i
 * Social Security taxation
 * Standard deduction
 * RMD enforcement (age 73+)
+
+<img width="1486" height="764" alt="image" src="https://github.com/user-attachments/assets/7315bcee-e0e9-4d4c-b8a7-7f5a5423f051" />
+<img width="1891" height="857" alt="image" src="https://github.com/user-attachments/assets/989ed059-0cc9-4829-8486-e8a70683282b" />
+
 
 ### Visualization
 
