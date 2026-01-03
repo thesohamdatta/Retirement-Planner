@@ -5,6 +5,7 @@ A fully client-side retirement planning application that models long-term portfo
 
 Demo link :
 https://claude.ai/public/artifacts/096ea927-cd52-4c03-b3ce-36778f070c6f
+refresh page twice if Clicks aren't working 
 
 
 <img width="1886" height="862" alt="Screenshot 2026-01-02 225130" src="https://github.com/user-attachments/assets/b961febb-cf54-4614-a218-751bc491466e" />
