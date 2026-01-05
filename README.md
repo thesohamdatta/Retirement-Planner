@@ -49,7 +49,7 @@ It is built as a **pure frontend application** with no backend or APIs, making i
 * Required Minimum Distributions (RMDs)
 * Portfolio longevity tracking
 
-### Tax System
+### Tax System(US data)
 
 * 2024 U.S. federal tax brackets
 * State tax (flat rate)
@@ -81,61 +81,6 @@ It is built as a **pure frontend application** with no backend or APIs, making i
 
 ---
 
-## Tech Stack
-
-* **React 19**
-* **TypeScript**
-* **Vite**
-* **Tailwind CSS**
-* **Recharts**
-* **LocalStorage (persistence)**
-* **Vitest / Jest (testing)**
-
-No backend. No APIs. No external services.
-
----
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── AccountForm.tsx
-│   ├── AccountList.tsx
-│   ├── AssumptionsForm.tsx
-│   ├── ChartAccumulation.tsx
-│   ├── ChartDrawdown.tsx
-│   ├── ChartIncome.tsx
-│   ├── ChartTax.tsx
-│   ├── ChartComposition.tsx
-│   ├── DataTableAccumulation.tsx
-│   ├── DataTableWithdrawal.tsx
-│   ├── SummaryCards.tsx
-│   ├── MethodologyPanel.tsx
-│   └── Layout.tsx
-│
-├── hooks/
-│   ├── useLocalStorage.ts
-│   └── useRetirementCalc.ts
-│
-├── utils/
-│   ├── projections.ts
-│   ├── withdrawals.ts
-│   ├── taxes.ts
-│   └── constants.ts
-│
-├── types/
-│   └── index.ts
-│
-├── tests/
-│   └── calculations.test.ts
-│
-├── App.tsx
-├── main.tsx
-└── index.css
-```
-
----
 
 ## How It Works
 
@@ -175,71 +120,6 @@ For each retirement year:
 * Roth withdrawals are tax-free
 * All taxes calculated year-by-year
 
----
-
-## Getting Started
-
-### Prerequisites
-
-* Node.js 18+
-* npm or yarn
-
-### Installation
-
-```bash
-git clone https://github.com/yourusername/retirement-planner.git
-cd retirement-planner
-npm install
-```
-
-### Run Locally
-
-```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Run Tests
-
-```bash
-npm test
-```
-
----
-
-## Design Philosophy
-
-* Deterministic over predictive
-* Transparent over clever
-* Explainable over optimized
-* Financially conservative assumptions
-* No magic numbers
-* No hidden logic
-
-This is meant to be:
-
-* Auditable
-* Extendable
-* Educational
-* Practical
-
----
-
-## Disclaimer
-
-This tool is for **educational and planning purposes only**.
-
-It does **not** provide financial, tax, or investment advice.
-Tax laws vary by jurisdiction and change over time.
-
-Always consult a licensed financial professional before making decisions.
-
----
 
 ## License
 
